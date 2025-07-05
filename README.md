@@ -1,4 +1,4 @@
-# home-lab-detection-engineering
+# Home-Lab-Detection-Engineering
 Suricata, Security Onion, pfSense network detection rules and lab configs
 # 🛠️ Home Lab Detection Engineering
 
