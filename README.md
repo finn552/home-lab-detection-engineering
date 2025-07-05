@@ -32,11 +32,14 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
 ```
 ---
 
+
 ## 📁 Contents
+
 
 ### 🔐 Detection Rules
 - [DNS Exfiltration Rule](rules/dns-exfiltration.rules)
 - [Brute Force Rule](rules/brute-force.rules)
+
 
 ### 🧠 TryHackMe & Lab Writeups
 - [TryHackMe – Bounty Hunter](writeups/tryhackme-bounty-hunter.md)  
