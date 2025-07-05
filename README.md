@@ -29,3 +29,12 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
     sid:1000001;
     rev:1;
 )
+## 🔒 Detection Rules
+
+This repository includes custom IDS rules written for Suricata, simulating real-world threats to practice detection engineering.
+
+- [`dns-exfiltration.rules`](rules/dns-exfiltration.rules) – Detects DNS tunneling attempts using abnormal query patterns.
+- (More rules coming soon)
+
+## 🧠 Writeups
+- [TryHackMe – Bounty Hunter Walkthrough](writeups/tryhackme-bounty-hunter.md)
