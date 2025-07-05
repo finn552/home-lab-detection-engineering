@@ -12,14 +12,6 @@ A hands-on detection engineering lab simulating real-world SOC environments. Bui
 - **Kali Linux** – attacker VM for simulated intrusions
 - **Ubuntu Server** – victim machines for detection testing
 
- ## 🔒 Detection Rules
-  This repository includes custom IDS rules written for Suricata, simulating real-world threats to practice detection engineering.
-- [`dns-exfiltration.rules`](rules/dns-exfiltration.rules) – Detects DNS tunneling attempts using abnormal query patterns.
-   - (More rules coming soon)
-
-    ## 🧠 Writeups
-   - [TryHackMe – Bounty Hunter Walkthrough](writeups/tryhackme-bounty-hunter.md)
-
 ## ⚙️ Detection Engineering
 
 - 🔍 Wrote and tuned **10 custom Suricata rules**  
@@ -37,3 +29,8 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
     sid:1000001;
     rev:1;
 )
+'''
+
+
+
+
