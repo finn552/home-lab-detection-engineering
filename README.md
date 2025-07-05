@@ -39,11 +39,14 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
 - [Brute Force Rule](rules/brute-force.rules)
 
 ### 🧠 TryHackMe & Lab Writeups
-- [TryHackMe – Bounty Hunter](writeups/tryhackme-bounty-hunter.md)
-- [Blue – SMB Exploit](writeups/blue-smb.md)
-- [Anonymous Attack VM Setup](writeups/anonymous.md)
-- [MITM LAN Simulation](writeups/mitm-lan.md)
-
+- [TryHackMe – Bounty Hunter](writeups/tryhackme-bounty-hunter.md)  
+- [Blue – SMB Exploit](writeups/blue-smb.md)  
+- [Anonymous Attack VM Setup](writeups/anonymous.md)  
+- [MITM LAN Simulation](writeups/mitm-lan.md)  
+- [Nmap Scanning Overview](writeups/nmap-scans.md)  
+- [Suricata Alerts & Correlation](writeups/suricata-alerts.md)  
+- [Lab Setup & Configuration](writeups/lab-setup.md)
+  
 ### 🧱 Lab Design
 - [Home Lab Architecture](lab-architecture.md)
 
