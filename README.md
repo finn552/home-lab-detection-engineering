@@ -44,6 +44,7 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
 - [Anonymous Attack VM Setup](writeups/anonymous.md)
 - [MITM LAN Simulation](writeups/mitm-lan.md)
 
-
+### 🧱 Lab Design
+- [Home Lab Architecture](lab-architecture.md)
 
 
