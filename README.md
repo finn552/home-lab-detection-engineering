@@ -35,6 +35,8 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
 
 ## 📁 Contents
 
+### 🏆 Real Bug Bounties (others in progress)
+- [DataCamp Sensitive File Exposure (Poser Subdomain)](writeups/poser-sensitive.md)
 
 ### 🔐 Detection Rules
 - [DNS Exfiltration Rule](rules/dns-exfiltration.rules)
